@@ -6,7 +6,7 @@ import sys
 
 def top_ten(subreddit):
     """Print top 10 posts"""
-    headers = {"User-Agent": "julgachancipa"}
+    headers = {"User-Agent": "adonis7ejeda"}
 
     subRhot = requests.get('https://reddit.com/r/' + subreddit +
                            '/hot.json?sort=hot&limit=10', headers=headers)
